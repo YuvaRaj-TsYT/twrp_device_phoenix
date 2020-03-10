@@ -14,8 +14,7 @@
 #
 LOCAL_PATH := device/xiaomi/phoenix
 
-TARGET_BOARD_PLATFORM := SM7150-AB             
-TARGET_NO_BOOTLOADER := true
+TARGET_BOARD_PLATFORM := sm7150-ab             
 TARGET_BOOTLOADER_BOARD_NAME := phoenix     
 
 # Recovery
