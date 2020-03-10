@@ -17,6 +17,7 @@ before_script:
   - tar -xJf twrp.tar.xz --directory $HOME/twrp/ && rm twrp.tar.xz
 script:
   # Replace your $$USERNAME$$, $$REPO_URL$$, $$BRAND$$, $$DEVICE$$
+  - sudo apt install openjdk-8-jre
   - cd $HOME/twrp/ && git clone https://github.com/YuvaRaj-TsYT/twrp_device_xiaomi_phoenix.git device/xiaomi/phoenix
   - rm -rf bootable/recovery && git clone https://github.com/omnirom/android_bootable_recovery -b android-9.0 --depth 1 bootable/recovery
   # Get the Modified TWRPuilder Counter Part of the Tree
