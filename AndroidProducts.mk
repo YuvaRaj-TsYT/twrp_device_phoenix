@@ -1,4 +1,4 @@
 
-LOCAL_PATH := device/xiaomi/phoenix
+LOCAL_PATH := device/poco/phoenix
 
 PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_phoenix.mk
