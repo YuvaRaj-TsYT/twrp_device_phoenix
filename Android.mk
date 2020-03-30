@@ -3,7 +3,7 @@
 
 ifneq ($(filter phoenix,$(TARGET_DEVICE)),)
 
-LOCAL_PATH := device/xiaomi/phoenix
+LOCAL_PATH := device/poco/phoenix
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
