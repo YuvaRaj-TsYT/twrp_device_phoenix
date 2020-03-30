@@ -16,6 +16,6 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 PRODUCT_DEVICE := phoenix
 PRODUCT_NAME := omni_phoenix
-PRODUCT_BRAND := xiaomi
+PRODUCT_BRAND := poco
 PRODUCT_MODEL := phoenix
-PRODUCT_MANUFACTURER := xiaomi
+PRODUCT_MANUFACTURER := poco
