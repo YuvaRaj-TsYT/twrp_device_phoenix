@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-LOCAL_PATH := device/xiaomi/phoenix
+LOCAL_PATH := device/poco/phoenix
 
 TARGET_BOARD_PLATFORM := sm7150-ab             
 TARGET_BOOTLOADER_BOARD_NAME := phoenix     
